@@ -55,3 +55,26 @@ a {
 .forimg{
     padding-right: 85%;
 }
+.das{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.divo{
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 356.836px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.texatut{
+    
+}
+
+.imgag{
+
+}
