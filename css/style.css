@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 100%;
     color: #000;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(228, 228, 228);
 }
 
 h1 {
@@ -31,7 +31,7 @@ a{
 
 .header{
     padding: 50px, 0px;
-    background-color: #DCDCDC;
+    background-color: #6d7fa1;
 }
 
 .boxx{
@@ -40,7 +40,7 @@ a{
 }
 
 .navig{
-    background-color: rgb(129, 129, 129);
+    background-color: #8598bb;
     border-color: #666666;
     min-height: 64px;
 }
@@ -63,42 +63,47 @@ a{
 
 .navig li a:hover{
     color: pink;
-    background-color: rgb(85, 85, 85);
+    background-color: #48556d;
 }
 
 .coll{
     overflow: auto;
-    background-color: rgba(177, 177, 177, 0.692);
-    border: 2px black solid;
     margin: 10px 10px 10px 10px;
 }
 
 .coll-title{
+    margin-top: 10px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #777;
     font-size: 32px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .coll-title small{
     color: #777;
-    font-size: 70%;
+    font-size: 50%;
+    text-align: center;
 }
 
 .coll-item-out{
-    display: block;
+    background-color: rgb(255, 255, 255);
+    display: inline;
     float: left;
     padding-left: 5px;
     padding-right: 5px;
+    width: 49%;
+    height: 400px;
     box-sizing: border-box;
+    margin: 5px 5px 5px 5px;
+}
+
+#spelliddiv{
+    margin: 5px 25% 5px 25%;
 }
 
 .coll-img{
-    margin-right: 50px;
+    margin-right: 20px;
     float: left;
-}
-
-.coll-text{
-    padding-left: 300px;
 }
 
 .coll-text h2{
@@ -112,6 +117,7 @@ a{
     border: 1px solid transparent;
     border-radius: 5px;
     outline: none;
+    background-color: rgb(196, 196, 196);
 }
 
 .readmore:hover{
@@ -124,7 +130,7 @@ a{
 }
 
 .footer{
-    background-color: rgb(56, 56, 56);
+    background-color: #262d3a;
     color: white;
     padding: 20px 0;
     margin-top: 30px;
@@ -136,6 +142,7 @@ a{
     border: 1px solid transparent;
     border-radius: 5px;
     outline: none;
+    background-color: rgb(85, 173, 255);
 }
 
 .cart:hover{
