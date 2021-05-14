@@ -29,6 +29,53 @@ a{
     text-decoration: none;
 }
 
+footer p{
+    margin-left: 75%;
+}
+
+form {
+    max-width: 300px;
+  }
+  
+  footer input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 1px solid #ccc;
+    border-radius: .1875rem;
+    box-sizing: border-box;
+    display: block;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+    padding: .275rem;
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: auto;
+  }
+  
+  input[type="password"] {
+    margin-bottom: .5rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #015294;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+  
+  label {
+    color: #666;
+    font-size: .875rem;
+  }
+
 .header{
     padding: 50px, 0px;
     background-color: #6d7fa1;
@@ -49,6 +96,10 @@ a{
     float: left;
     width: 250px;
     height: 64px;
+}
+
+#piccha{
+    float: left;
 }
 
 .navig a{
@@ -124,6 +175,10 @@ a{
     margin: 5px 25% 5px 25%;
 }
 
+#hfig{
+    margin: 0 0 0 0;
+}
+
 .coll-img{
     margin-right: 20px;
     float: left;
@@ -182,64 +237,3 @@ a{
     color: pink;
     background-color: rgb(255, 119, 119);
 }
-
-
-
-/*
-.poz {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-.hr li {
-    text-align: center;
-    padding: 5px 0; 
-    display: inline; 
-    margin-right: 50px; 
-    font-size: 50px;
-    line-height: normal;
-    color:#DCDCDC
-}
-
-.seven p {
-    text-align: center;
-    color: #6cb1ff;
-}
-
-.steven {
-    padding-right: 75%;
-    font-size: 25px;
-}
-
-.yes {
-    font-size: 25px;
-    color: #000;
-}
-
-.forh{
-    text-align: center;
-}
-
-.forimg{
-    padding-right: 85%;
-}
-
-.das{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.divo{
-    
-    flex: 0 0 50%;
-    max-width: 50%;
-    position: relative;
-    width: 356.836px;
-    padding-right: 15px;
-    padding-left: 15px;
-} */
