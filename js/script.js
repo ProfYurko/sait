@@ -16,6 +16,7 @@ function gug(sw) {
     }
 }
 
+//some chacking comment
 const rmCheck = document.getElementById("rememberMe"),
     emailInput = document.getElementById("email");
 
